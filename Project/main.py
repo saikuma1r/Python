@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/4')
 def hello():
     return 'Hello, world!<h1>Welcome</h1>'
 
