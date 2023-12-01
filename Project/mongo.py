@@ -2,7 +2,8 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://saikumap:saikumap@cluster0.ppt9la2.mongodb.net/?retryWrites=true&w=majority"
+#uri = "mongodb+srv://saikumap:saikumap@cluster0.ppt9la2.mongodb.net/?retryWrites=true&w=majority"
+uri ="mongodb+srv://saikumap:saikumap@cluster0.ppt9la2.mongodb.net/test?retryWrites=true&w=majority"
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
